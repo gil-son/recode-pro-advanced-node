@@ -15,6 +15,6 @@ module.exports = function(){
        connection.query('insert into conteudo set ?', conteudo);
    }
    
-    return this;
+    return this; 
 
 }
