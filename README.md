@@ -8,3 +8,4 @@
 <p>Execute: npm start</p>
 <p>Port: 3001</p>
 <p>SQL file: https://github.com/gil-son/recode-pro-advanced-node/blob/main/project/App/config/sql/table.sql</p>
+<p>Database configuration: https://github.com/gil-son/recode-pro-advanced-node/blob/main/project/App/config/database.js</p>
