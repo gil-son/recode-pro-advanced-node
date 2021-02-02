@@ -4,7 +4,7 @@ module.exports = function(app){
         res.render('paginas/cadastro');
     });
 
-    app.post('/cadastro/salvar', function(req, res){
+    app.post('/cadastro/salvar', function(req, res){ 
         var conteudo = req.body;
         var connection = app.app.config.database();
         var conteudoModel = app.app.models.conteudoModel;

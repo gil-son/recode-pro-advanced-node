@@ -3,7 +3,7 @@ module.exports = function(app){
         const buscaCep = require("../functions/buscaCep");
 
         app.post("/envia-cep", async (req, res) =>{
-    
+     
         // console.log(cep);
         // res.render("index");
         const {cep} = req.body;
@@ -11,5 +11,5 @@ module.exports = function(app){
         console.log(resultado);
         res.render('paginas/resultadocep',{dado:resultado});
     });
-
+ 
 }

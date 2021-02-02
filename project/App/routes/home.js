@@ -5,4 +5,4 @@ module.exports = function(app){
             Lembre-se que parte do caminho foi configurado já no app.set()
          */
         });
-}
+} 
