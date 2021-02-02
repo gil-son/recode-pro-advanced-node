@@ -16,4 +16,4 @@ consign()
 .then('././app/models')
 .into(app);
 
-module.exports = app;
+module.exports = app; 
